@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #f04e98;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: #ff758c;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero button {
+            background: white;
+            color: #f04e98;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #ffde59;
+        }
+
+        .features div {
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* About Section */
+        .about {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        .contact h2 {
+            margin-bottom: 20px;
+        }
+
+        .contact-details {
+            margin-bottom: 20px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #f04e98;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div>My Logo</div>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Our Service</h1>
+        <p>Your journey to excellence starts here.</p>
+        <button>Learn More</button>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div>
+            <h3>Feature 1</h3>
+            <p>Easy to use and reliable.</p>
+        </div>
+        <div>
+            <h3>Feature 2</h3>
+            <p>Secure and trustworthy.</p>
+        </div>
+        <div>
+            <h3>Feature 3</h3>
+            <p>Customizable solutions.</p>
+        </div>
+    </section>
+
+    <!-- About Section (No Image) -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are passionate about achieving the best results for our clients. Our team is dedicated to delivering top-notch services that exceed expectations.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-details">
+            <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+            <p><strong>Email:</strong> contact@landingpage.com</p>
+            <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+        </div>
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 My Landing Page. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
